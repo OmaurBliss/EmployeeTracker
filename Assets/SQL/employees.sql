@@ -29,7 +29,7 @@ INSERT INTO department
     (name)
 VALUES
     ('Production'),
-    ('Analystics'),
+    ('Media'),
     ('Marketing'),
     ('Executive');
 INSERT INTO role
@@ -37,10 +37,10 @@ INSERT INTO role
 VALUES
     ('Production Lead', 5000000, 1),
     ('Audio Tech 1', 4000000, 1),
-    ('Video Tech 1', 40000000, 2),
-    ('Marketing Manager', 8000000, 2),
-    ('Media Manager', 7000000, 3),
-    ('Media Specialist', 3000000, 3),
+    ('Video Tech 1', 40000000, 1),
+    ('Marketing Manager', 8000000, 3),
+    ('Media Manager', 7000000, 2),
+    ('Media Specialist', 3000000, 2),
     ('CEO', 45000000, 4),
     ('VP', 25000000, 4);
 INSERT INTO employee
