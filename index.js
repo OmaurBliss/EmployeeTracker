@@ -1,6 +1,7 @@
 const mysql = require('mysql');
 const inquirer = require ("inquirer");
 const figlet = require('figlet');
+// const connection = require ("./mysqlconnec")
 
 
 
@@ -24,8 +25,10 @@ connection.connect(err => {
     prompt();
 });
 
- 
-    figlet('Hello World!!', function(err, data) {
+
+
+function showFiglet (){
+    figlet('RhodeyStark', function(err, data) {
         if (err) {
             console.log('Something went wrong...');
             console.dir(err);
@@ -34,9 +37,8 @@ connection.connect(err => {
         console.log(data)
     });
 
-
-
-
+} 
+showFiglet();
 
 const messagePrompt = {
     viewAllEmployees: "View All Employees",
